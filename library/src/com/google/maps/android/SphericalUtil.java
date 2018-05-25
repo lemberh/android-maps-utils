@@ -49,7 +49,7 @@ public class SphericalUtil {
      * Returns the LatLng resulting from moving a distance from an origin
      * in the specified heading (expressed in degrees clockwise from north).
      * @param from     The LatLng from which to start.
-     * @param distance The distance to travel.
+     * @param distance The distance to travel, in meters.
      * @param heading  The heading in degrees clockwise from north.
      */
     public static LatLng computeOffset(LatLng from, double distance, double heading) {
